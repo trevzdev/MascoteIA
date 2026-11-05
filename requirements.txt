@@ -1,0 +1,17 @@
+flask>=3.1.0
+python-dotenv>=1.0.0
+google-auth>=2.38.0
+google-auth-oauthlib>=1.2.0
+google-api-python-client>=2.160.0
+google-genai>=2.0.0
+requests>=2.32.0
+cryptography>=44.0.0
+flask-session>=0.8.0
+pydantic>=2.10.0
+PyQt6>=6.8.0
+SpeechRecognition>=3.14.0
+sounddevice>=0.5.0
+numpy>=2.0.0
+pywin32>=308
+
+

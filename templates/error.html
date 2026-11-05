@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="max-w-xl mx-auto py-12 text-center space-y-4">
+    <div class="w-16 h-16 mx-auto rounded-2xl bg-red-500/10 text-red-400 border border-red-500/20 flex items-center justify-center text-2xl font-bold">
+        ⚠️
+    </div>
+
+    <h2 class="text-xl font-bold text-white">{{ error_title | default("Ocorreu um Erro") }}</h2>
+    <p class="text-xs text-slate-400">
+        {{ error_message | default("A requisição não pôde ser completada com segurança.") }}
+    </p>
+
+    <div class="pt-4">
+        <a href="/" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold border border-slate-700 transition">
+            &larr; Voltar ao Painel Principal
+        </a>
+    </div>
+</div>
+{% endblock %}
+
