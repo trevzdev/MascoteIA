@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛡️ AuthGuard & MascoteIA - Google OAuth 2.0 & Mascote Desktop PyQt
 
 Aplicação completa em Python composta por duas frentes integradas:
@@ -168,3 +169,6 @@ Quando for publicar esta aplicação em um servidor público (ex: VPS, Cloud Run
 3. **Gerenciador de Segredos em Nuvem**:
    - Em produção corporativa, injete as variáveis `GOOGLE_CLIENT_SECRET` e `GEMINI_API_KEY` através do **Google Secret Manager**, **AWS Secrets Manager** ou variáveis do seu provedor de nuvem, nunca salvando em disco.
 
+=======
+# MascoteIA
+>>>>>>> bb9fad195f1c03f012f471ebb3b4e6534f41cce4
